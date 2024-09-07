@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PwaExample.Server", "PwaExample.Server\PwaExample.Server.csproj", "{BADD3B6E-1B22-4E47-BBBA-68481A5402AB}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pwaexample.client", "pwaexample.client\pwaexample.client.esproj", "{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADD3B6E-1B22-4E47-BBBA-68481A5402AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADD3B6E-1B22-4E47-BBBA-68481A5402AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADD3B6E-1B22-4E47-BBBA-68481A5402AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADD3B6E-1B22-4E47-BBBA-68481A5402AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBFC7D1-54BA-4864-873E-FDB44E88DA53}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B71884E-AC81-4801-B5D5-6B3098EFC1FE}
+	EndGlobalSection
+EndGlobal

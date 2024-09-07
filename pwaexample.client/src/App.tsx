@@ -70,9 +70,7 @@ export default function App() {
 
   const handleNotificationClick = () => {
     if (Notification.permission === "granted") {
-      setTimeout(() => {
-        new Notification("Hello! This is your notification after 5 seconds!");
-      }, 5000);
+      new Notification("Hello! This is your notification after 5 seconds!");
     } else if (Notification.permission !== "denied") {
       Notification.requestPermission().then((permission) => {
         if (permission === "granted") {
@@ -80,9 +78,11 @@ export default function App() {
             new Notification(
               "Hello! This is your notification after 5 seconds!"
             );
-          }, 5000);
+          });
         }
       });
+    } else {
+      alert("Notification has been denied");
     }
   };
 
@@ -207,9 +207,7 @@ export default function App() {
     <>
       <div className="container mx-auto px-4">
         <Button onClick={handleClick}>Click me</Button>
-        <Button onClick={handleNotificationClick}>
-          Send Notification in 5s
-        </Button>
+        <Button onClick={handleNotificationClick}>Send Notification</Button>
         <Button onClick={handleGetLocation}>Get Location</Button>
         <Button onClick={handleVibrate}>Vibrate</Button>
         <Button onClick={handleBluetooth}>Connect Bluetooth</Button>

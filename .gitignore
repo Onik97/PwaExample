@@ -430,3 +430,4 @@ pwaexample.client/.env
 /mariadb_data
 /PwaExample.Server/wwwroot
 PwaExample.Server/appsettings.Production.json
+pwaexample.client/package-lock.json

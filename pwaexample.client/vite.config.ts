@@ -23,6 +23,7 @@ export default defineConfig({
         name: "PWA Example App",
         short_name: "ExampleApp",
         description: "PWA Example App description",
+        display: "standalone",
         theme_color: "#ffffff",
         icons: [
           {
@@ -36,6 +37,9 @@ export default defineConfig({
             type: "image/png",
           },
         ],
+      },
+      injectManifest: {
+        swSrc: "src/service-worker.ts",
       },
     }),
   ],

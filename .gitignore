@@ -431,3 +431,7 @@ pwaexample.client/.env
 /PwaExample.Server/wwwroot
 PwaExample.Server/appsettings.Production.json
 pwaexample.client/package-lock.json
+pwaexample.client/src/routeTree.gen.ts
+pwaexample.client/vite.config.js
+pwaexample.client/tsconfig.node.tsbuildinfo
+/pwaexample.client/dev-dist

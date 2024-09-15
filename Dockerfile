@@ -14,6 +14,7 @@ ENV VITE_DISCORD_CALLBACK=$VITE_DISCORD_CALLBACK
 ENV VITE_PUBLIC_API_URL=$VITE_PUBLIC_API_URL
 
 RUN npm install
+RUN npm run generate-routes
 RUN npm run build
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS backend-build
